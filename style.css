@@ -184,7 +184,18 @@ option{
         font-size: 10px;
     }
     .todo-button{
-        font-size: 7px;
+        font-size: 10px;
     }
-
+    .filter-todos{
+        font-size: 5px; 
+    }
+    .todo{
+        /* font-size : 30px; */
+        /* background: blue; */
+        font-size : 1rem;
+    }
+    button.complete-btn{
+        /* background: blue; */
+        size: 30px;
+    }
 }
