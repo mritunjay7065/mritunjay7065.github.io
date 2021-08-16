@@ -181,10 +181,10 @@ option{
         /* font-size: 3em; */
     }
     .todo-input{
-        font-size: 10px;
+        font-size: 1.3rem;
     }
     .todo-button{
-        font-size: 10px;
+        font-size: 1.5rem;
     }
     .filter-todos{
         font-size: 5px; 
