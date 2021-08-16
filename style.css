@@ -25,11 +25,21 @@ header,form{
     align-items: center;
 }
 
+
 form input,form button {
     padding: 0.5rem;
     font-size: 2rem;
     border : none;
-    background: white;
+    /* background: white; */
+    background: #cc95c0; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #cc95c0, #dbd4b4, #7aa1d2); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #cc95c0, #dbd4b4, #7aa1d2);
+}
+
+.todo-button{
+    background: #348f50; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #348f50, #56b4d3); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #348f50, #56b4d3); 
 }
 
 form button{
@@ -143,4 +153,19 @@ option{
 .select:hover::after{
     background: white;
     color: #fda085;
+}
+
+
+@media (max-width: 650px){
+    
+    .myheader{
+        font-size: 15px;
+    }
+    .myflex
+    {   display : flex;
+        flex-direction: column;
+        align-items: center;
+        /* font-size: 3em; */
+    }
+
 }
