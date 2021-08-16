@@ -169,3 +169,22 @@ option{
     }
 
 }
+@media (max-width: 400px){
+    
+    .myheader{
+        font-size: 10px;
+    }
+    .myflex
+    {   display : flex;
+        flex-direction: column;
+        align-items: center;
+        /* font-size: 3em; */
+    }
+    .todo-input{
+        font-size: 10px;
+    }
+    .todo-button{
+        font-size: 7px;
+    }
+
+}
